@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo img {
+    /* margin-left: 20px; */
+    width: 174px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.right {
+    align-items: center;
+    cursor: pointer;
+}
+
+.right ul li {
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    color: #222;
+
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+}
+
+.right ul li svg {
+    padding: 0.5px;
+    margin-top: 1.5px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    margin: 10px;
+    font-family: 'Segoe UI';
+
+
+}
+
+.main .first span {
+    /* font-weight: 700; */
+
+    font-size: 50px;
+    display: block;
+
+}
+
+
+.first p {
+    font-size: 23px;
+    width: 65vw;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 70px;
+    font-family: sans-serif;
+}
+
+.second .small-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    justify-content: flex-start;
+
+
+}
+
+.btn {
+    padding: 12px 20px;
+    background-color: #00b6d1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    margin-top: -9px;
+    min-height: 48px;
+    min-width: 256px;
+    cursor: pointer;
+}
+
+.second .small-logo img {
+    width: 60px;
+
+}
+
+.second {
+    font-size: 15px;
+    text-align: left;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    height: 25vw;
+    margin-top: 50px;
+   
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:16px;
+    background-color: #f9f9f9;
+}
+
+.item-lang {
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.item button {
+    margin-top: 20px;
+    background-color: #5cb85c;
+    ;
+    min-width: 10px;
+    min-height: 10px;
+}
+
+.item button a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.hash {
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.hash1 {
+    font-size: 8px;
+}
+
+.lang {
+    font: 12px;
+}
+footer{
+    padding: 50px;
+    margin: 150px;
+}
+
+@media screen and (max-width: 1145px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
